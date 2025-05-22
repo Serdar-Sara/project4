@@ -15,6 +15,6 @@ spec:
       containers:
       - name: project4
         image: intnumber/project4:latest
-        imagePullPolicy: Always    # Bunu EKLE
+        imagePullPolicy: Always    
         ports:
         - containerPort: 8080
